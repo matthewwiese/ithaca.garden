@@ -5,5 +5,12 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_M
 
 const gardens = await (await fetch('./gardens.json')).json();
 for (const garden of gardens) {
-    L.marker([garden.lat, garden.long]).addTo(map).bindPopup(garden.name);
+    const socials = garden.socials.map(social => {
+        return `<a href="${Object.values(social)[0]}">${Object.keys(social)[0]}</a>`
+    }).join(' · ');
+    console.log(socials);
+    L.marker([garden.lat, garden.long]).addTo(map).bindPopup(`<div><strong>${garden.name}</strong>
+    ${garden.address}
+    <p>${garden.description}</p>
+    <a href="${garden.website}">website</a> · <a href="${garden.maps}">google maps</a> · ${socials}</div>`);
 }

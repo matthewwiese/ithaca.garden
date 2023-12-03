@@ -1,10 +1,14 @@
 [
     {
         "name": "Ithaca Community Gardens",
+        "description": "The Ithaca Community Gardens is a not-for-profit membership organization devoted to furthering community food self-sufficiency.",
         "website": "https://ithacacommunitygardens.org",
         "address": "Carpenter Cir, Ithaca, NY 14850",
         "maps": "https://maps.app.goo.gl/f9e1f4uJyQtMYqDHA",
         "lat": 42.4481399,
-        "long": -76.508235
+        "long": -76.508235,
+        "socials": [
+            { "facebook": "https://www.facebook.com/IthacaCommunityGardens/" }
+        ]
     }
 ]
