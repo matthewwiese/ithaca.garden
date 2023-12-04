@@ -10,5 +10,65 @@
         "socials": [
             { "facebook": "https://www.facebook.com/IthacaCommunityGardens/" }
         ]
+    },
+    {
+        "name": "Floral Avenue Community Garden",
+        "description": "Floral Avenue Community Garden on Ithaca’s west side was started in 2014 with a Hunger and Food Security grant from the United Way of Tompkins County.",
+        "website": "https://ccetompkins.org/gardening/community-gardening/floral-avenue-community-garden",
+        "address": "Floral Ave, Ithaca, NY 14850",
+        "maps": "https://maps.app.goo.gl/QodkPf7jgwq2T1Wd9",
+        "lat": 42.4346807,
+        "long": -76.5192672
+    },
+    {
+        "name": "West Hill Community Garden",
+        "description": "Built on a generous tract of land belonging to the Town of Ithaca, West Hill Community Garden comprises over 75 plots that are available to anyone in the local community.",
+        "website": "https://www.westhillcommunitygarden.com",
+        "address": "Conifer Dr, Ithaca, NY 14850",
+        "maps": "https://maps.app.goo.gl/CpxncHyyTVXCxhjCA",
+        "lat": 42.4539948,
+        "long": -76.5300654
+    },
+    {
+        "name": "Community Gardens at Cornell",
+        "description": "Plots are available to Cornell students, members of the Cornell community, and area residents. Plots are available to Cornell students, members of the Cornell community, and area residents.",
+        "website": "https://cornell.campusgroups.com/CommGardens/home/",
+        "address": "Freese Rd, Ithaca, NY 14850",
+        "maps": "https://maps.app.goo.gl/5yunJKfRHRGuqQ8T9",
+        "lat": 42.4615031,
+        "long": -76.4443533,
+        "socials": [
+            { "facebook": "https://www.facebook.com/groups/1996044193800612/" }
+        ]
+    },
+    {
+        "name": "East Shore Community Garden",
+        "description": "East Shore Community garden offers individual plots as well as a community section where we grow squash, cucumbers, corn, etc.",
+        "website": "https://www.eastshorecf.com/",
+        "address": "E. Shore Dr, Lansing, NY 14882",
+        "maps": "https://maps.app.goo.gl/1nd4uG5KWgNSN93UA",
+        "lat": 42.5357852,
+        "long": -76.5044077
+    },
+    {
+        "name": "Common Field Garden",
+        "description": "Land available for gardening. Plot sizes are flexible depending on what you need. No running water, but pond and stream nearby. Bring your own tools, etc.",
+        "website": "https://commonfieldinc.weebly.com/",
+        "address": "Peruville Rd, Lansing, NY 14882",
+        "maps": "https://maps.app.goo.gl/s2nuLNJybKCWtTQc8",
+        "lat": 42.54589,
+        "long": -76.460391
+    },
+    {
+        "name": "Esty Street Neighborhood Garden",
+        "description": "Located in a lot next to the Meadow Street branch of CFCU Community Credit Union, the Esty Street Neighborhood Garden was begun in August 2017 with assistance assistance from Cornell Cooperative Extension Tompkins County, Greenstar Community Projects, volunteers from Ithaca Children's Garden and Loaves and Fishes.",
+        "website": "https://www.foodjusticeprojects.org/",
+        "address": "Esty St, Ithaca, NY 14850",
+        "maps": "https://maps.app.goo.gl/efPg2UKPhqLj8zkb8",
+        "lat": 42.4430904,
+        "long": -76.5077572,
+        "socials": [
+            { "facebook": "https://www.facebook.com/foodjusticeprojects/" }
+        ]
     }
 ]

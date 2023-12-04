@@ -21,11 +21,11 @@ map.on('click', toggleModal);
 
 const gardens = await (await fetch('./gardens.json')).json();
 for (const garden of gardens) {
-    const socials = garden.socials.map(social => {
+    const socials = "socials" in garden ? ' · ' + garden.socials.map(social => {
         return `<a href="${Object.values(social)[0]}">${Object.keys(social)[0]}</a>`
-    }).join(' · ');
+    }).join(' · ') : '';
     L.marker([garden.lat, garden.long]).addTo(map).bindPopup(`<div><strong>${garden.name}</strong>
     ${garden.address}
     <p>${garden.description}</p>
-    <a href="${garden.website}">website</a> · <a href="${garden.maps}">google maps</a> · ${socials}</div>`);
+    <a href="${garden.website}">website</a> · <a href="${garden.maps}">google maps</a> ${socials}</div>`);
 }
