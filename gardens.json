@@ -70,5 +70,17 @@
         "socials": [
             { "facebook": "https://www.facebook.com/foodjusticeprojects/" }
         ]
+    },
+    {
+        "name": "Danby Community Church Garden",
+        "description": "A new garden based out of the Danby Community Church open to everyone in the community. Actively seeking volunteers.",
+        "website": "https://www.danbychurch.org/uploads/7/3/2/6/73263777/may_2024_danby_church_news_small.pdf#page=4",
+        "address": "1859 Danby Rd, Ithaca, NY 14850",
+        "maps": "https://maps.app.goo.gl/W7bMUDAbpd7dQSeD6",
+        "lat": "42.352266",
+        "long": "-76.4807847",
+        "socials": [
+            { "facebook": "https://www.facebook.com/danbychurch/" }
+        ]
     }
 ]
